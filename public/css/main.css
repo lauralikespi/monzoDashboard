@@ -1,0 +1,64 @@
+body {
+	font-family: 'Adelle', sans-serif;
+	min-height: 110%;
+	width: 100%;
+/*	background: url("../img/back-swirl.png") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;*/
+	  padding: 10px;
+}
+.container {
+	width: 95%;
+	height: 95%;
+}
+header {
+	align-content: right;
+	padding-right: 2px;
+	color: white;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.workerName {
+	float: right;
+}
+.workerName input {
+	font-size: 30px;
+	color: black;
+}
+.mainBody {
+	text-align:center;
+	width: 100%;
+}
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+	display: table-cell;
+	text-align: center;
+	width: 33%;
+	vertical-align: top;
+}
+.things {
+    max-width: 100%;
+    max-height: 100%;
+}
+#bought, #selling {
+	display: none;
+}
+.consumerList{
+	list-style-type: none;
+	padding: 5px;
+}
+.producerList{
+	list-style-type: none;
+	padding: 5px;
+}
+.buildingList{
+	list-style-type: none;
+	padding: 5px;
+}

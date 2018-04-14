@@ -1,0 +1,19 @@
+{
+  "name": "monzo-test",
+  "version": "0.0.1",
+  "description": "Playing with Monzo API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monzo"
+  ],
+  "author": "laura",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
